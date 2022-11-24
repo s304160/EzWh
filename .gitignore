@@ -1,0 +1,8 @@
+*.DS_Store
+server/coverage/
+server/node_modules/
+server/.nyc_output/
+server/mochawesome-report/
+server/unitTestResult.txt
+client/node_modules/
+*.sqlite

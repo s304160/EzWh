@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dayjs": "^1.11.2",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "nodemon": "^2.0.16",
+    "sqlite3": "^5.0.7"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "jest": "^27.5.1",
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "start": "NODE_ENV=test node server.js",
+    "apiTest": "NODE_ENV=test mocha test --exit --timeout 8000",
+    "test": "NODE_ENV=test jest"
+  }
+}

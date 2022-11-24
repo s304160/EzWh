@@ -1,0 +1,22 @@
+Server listening at http://localhost:3001
+
+
+  test item apis
+    1) creating item (unauthorized)
+    ✔ creating item (sku not existing)
+    ✔ creating item (invalid)
+    2) creating item 1 (authorized)
+    ✔ creating item (invalid - same id, supplier)
+    ✔ creating item (invalid - same SKUId, supplier)
+    3) creating item 2 (authorized)
+    4) getting items (unauthorized)
+    ✔ getting items (authorized)
+    5) getting item - (unauthorized)
+    6) getting item - (invalid)
+    ✔ getting item - (not existing)
+    7) getting item - (authorized)
+    8) modifying item - (unauthorized)
+    9) modifying item - (invalid)
+    ✔ modifying item - (not existing
+    10) modifying item - (authorized)
+    11) deleting item (unauthorized)
